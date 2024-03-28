@@ -1,0 +1,11 @@
+nav.menu {
+    top: 50%;
+}
+
+.card {
+    max-width: 390px;
+}
+
+.card-grid {
+    gap: 16px;
+}

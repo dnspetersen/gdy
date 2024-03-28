@@ -1,0 +1,11 @@
+# endereços redirecionados
+
+redirect 301 /produtos/pedidos-web https://www.gdy.com.br/cases/esupri
+redirect 301 /erp https://www.gdy.com.br/servicos
+redirect 301 /sap-business-one https://www.gdy.com.br/servicos
+redirect 301 /solucoes https://www.gdy.com.br/sobre
+redirect 301 /produtos/erp https://www.gdy.com.br/servicos
+redirect 301 /clientes https://www.gdy.com.br/cases
+redirect 301 /category/* https://www.gdy.com.br/cases
+redirect 301 /produtos/e-commerce https://www.gdy.com.br/cases
+redirect 301 /aplicacoes-moveis-apps https://www.gdy.com.br/servicos

@@ -1,0 +1,42 @@
+:root {
+  --primary-100: #9ee1ff;
+  --primary-200: #0eadf3;
+  --primary-400: #0a47e5;
+  --primary-700: #033ac7;
+  --secondary-400: #ef404a;
+  --secondary-500: #ed1c24;
+  --tertiary-400: #fd951a;
+  --linear-warm: linear-gradient(-135deg, #ef404a 0%, #fd951a 100%);
+  --linear-cold: linear-gradient(-135deg, #0a47e5 0%, #0eadf3 100%);
+  --txt-black: #444;
+  --bg-base: #F6F8F9;
+  --white: #fff;
+  --img-shadow: 0 16px 32px rgba(10, 71, 229, 0.2);
+  --card-shadow: 0 8px 24px -8px rgba(10, 71, 229, 0.2);
+  --font-family: 'Fira Sans', sans-serif;
+  --section-space: 12vh;
+  --inner-space: 10vw;
+  --grid-space: 50px;
+  --s-unit: 8px;
+  --m-unit: 16px;
+  --s-space: 24px;
+  --m-space: 32px;
+  --b-space: 64px;
+  --l-space: 96px;
+}
+@media screen and (max-width: 1368px) {
+  :root {
+    --section-space: 8vh;
+    --inner-space: 5vw;
+  }
+}
+@media screen and (max-width: 720px) {
+  :root {
+    --section-space: 96px;
+    --inner-space: 16px;
+    --s-space: 12px;
+    --m-space: 24px;
+    --b-space: 40px;
+    --l-space: 64px;
+  }
+}
